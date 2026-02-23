@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register IUC </title>
+  <link rel="icon" href="style/uploads/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style/library/aos/css/aos.css">
+  <link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+    <!-------------------------------------------- Navbar ----------------------------------------------->
+      <header class="header">
+
+    <div class="top-bar">
+      <div class="container top-bar-content">
+
+        <div class="auth-links" data-aos="fade-left">
+          <a href="login.html" class="login" style="border: 1px solid #f7f7f7;">تسجيل
+            دخول</a>
+          <a href="index.html" class="register"> الصفحه الرئيسيه </a>
+        </div>
+        <div class="logo" data-aos="fade-right">
+          <a href="index.html">
+          <img src="style/uploads/logo.png" alt="Logo">
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="nav-box">
+        <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="login.html">علمي</a></li>
+          <li><a href="login.html">أدبي</a></li>
+          <li><a href="login.html">كل الدروس</a></li>
+          <li><a href="login.html">دورات</a></li>
+          <li><a href="login.html">دبلومات</a></li>
+        </ul>
+
+      </div>
+    </nav>
+
+
+    <div class="menu-overlay"></div>
+
+    <aside class="mobile-menu">
+      <div class="menu-header">
+        <h3>القائمة</h3>
+        <button class="close-menu">×</button>
+      </div>
+
+      <ul class="menu-list">
+        <li class="active"><a href="index.html">الصفحه الرئيسية</a></li>
+        <li><a href="login.html ">علمى</a></li>
+        <li><a href="login.html ">أدبي</a></li>
+        <li><a href="login.html ">كل الدروس</a></li>
+        <li><a href="login.html ">دورات</a></li>
+        <li><a href="login.html ">دبلومات</a></li>
+      </ul>
+    </aside>
+
+  </header>
+<!-------------------------------------------------- Register Section --------------------------------------->
+<section class="register-page">
+
+  <div class="register-card">
+<!-- اختيار الدور -->
+    <div class="role-switch">
+  <label class="role-option">
+    <input class="radio" type="radio" name="role" checked>
+    <span class="custom-radio"></span>
+    <span class="text">طالب</span>
+  </label>
+
+  <label class="role-option">
+    <input class="radio" type="radio" name="role">
+    <span class="custom-radio"></span>
+    <span class="text">معلم</span>
+  </label>
+</div>
+
+    <!-- العنوان -->
+    <div class="register-header">
+      <h2>إنشاء حساب جديد</h2>
+   <div class="social-login">
+    <div class="social-go-fa">
+      <a data-aos="zoom-in" href="https://accounts.google.com/?hl=ar">
+        <button class="google">باستخدام جوجل
+            <img src="style/uploads/icons8-google-60.png" alt="" srcset="">
+        </button>
+        </a>
+        <a data-aos="zoom-in" href="https://www.facebook.com/">
+        <button class="facebook">باستخدام فيسبوك
+            <img src="style/uploads/icons8-facebook-96.png" alt="" srcset="">
+        </button>
+        </a>
+        
+        </div>
+      </div>
+      <div class="line">
+      <div class="divider">أو</div>
+      </div>
+    </div>
+    
+
+    
+
+    <!-- الفورم -->
+    <form class="register-form"  id="registerForm">
+<div class="input-text">
+  
+ <div class="field" >
+  <label for="firstName">الاسم الأول
+     <small class="error-msg"></small>
+  </label>
+  <input type="text" id="fname">
+</div>
+
+<div class="field">
+  <label for="lastName">اسم العائلة
+    <small class="error-msg"></small>
+  </label>
+  <input type="text" id="lname">
+</div>
+</div>
+
+<label for="email">البريد الإلكتروني
+    <small class="error-msg"></small>
+</label>
+<input type="email" id="email">
+
+<label for="phone">رقم الهاتف
+    <small class="error-msg"></small>
+</label>
+<input type="tel" id="phone">
+
+<label for="password">كلمة المرور
+    <small class="error-msg"></small>
+</label>
+<input type="password" id="password">
+
+     <label class="terms">
+  <input class="checkbox" type="checkbox" id="terms">
+  قرأت وأوافق على شروط الاستخدام وبيان الخصوصية
+</label>
+
+
+      <button type="submit" class="btn-submit">تسجيل</button>
+
+  
+   
+
+    </form>
+
+  </div>
+
+</section>
+
+    <!-- ------------------------------------ Features Section ------------------------------------------ -->
+
+    <section class="features-register">
+      <div class="grid-container-register">
+
+        <div class="features-grid-register">
+
+          <div class="feature-card-register" data-aos="zoom-in-left">
+            <a href="login.html">
+            <div class="icon">🎓</div>
+            <h3>كورسات أونلاين</h3>
+            <p>تصفح المواضيع المتنوعة</p>
+            </a>
+          </div>
+
+          <div data-aos="zoom-in-down" class="feature-card-register active">
+            <a href="login.html">
+            <div class="icon">💡</div>
+            <h3>تعليمات العلم</h3>
+            <p>ابحث عن الدورة المناسبة لك</p>
+            </a>
+          </div>
+
+          <div class="feature-card-register" data-aos="zoom-in-right">
+            <a href="login">
+            <div class="icon">⏰</div>
+            <h3>وصول مدى الحياة</h3>
+            <p>تعلم على الجدول الزمني الخاص بك</p>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+ <!-- ---------------------------------- Guarantees Section ------------------------------------------- -->
+    <section class="guarantees-section">
+      <div class="container">
+
+        <div class="guarantees-grid" data-aos="fade-up" data-aos-duration="3000">
+
+          <div class="guarantee-card">
+            <a href="login.html">
+            <img src="style/uploads/10.png.png" alt="ضمان الرضى">
+            <h3>ضمان الرضى</h3>
+            <span class="line"></span>
+            <p>
+              بإمكان الطالب طلب حصة تجريبية لمدة 30 دقيقة
+              للتعرف على أسلوب المدرس قبل البدء.
+            </p>
+            </a>
+          </div>
+
+          <div class="guarantee-card">
+            <a href="login.html">
+            <img src="style/uploads/istockphoto-942836988-612x612.png" alt="مرونة التوقيت">
+            <h3>مرونة التوقيت</h3>
+            <span class="line"></span>
+            <p>
+              إمكانية حجز الحصص الدراسية في الأوقات
+              التي تناسب جدولك اليومي.
+            </p>
+            </a>
+          </div>
+
+          <div class="guarantee-card">
+            <a href="login.html">
+            <img src="style/uploads/12.png.png" alt="تجربة آمنة">
+            <h3>تجربة آمنة</h3>
+            <span class="line"></span>
+            <p>
+              إجراءات قبول صارمة للمدرسين لضمان
+              الكفاءة والجودة التعليمية.
+            </p>
+            </a>
+          </div>
+
+          <div class="guarantee-card">
+            <a href="login.html">
+            <img src="style/uploads/14.png.png" alt="أسعار مقبولة">
+            <h3>أسعار مقبولة</h3>
+            <span class="line"></span>
+            <p>
+              المدرس هو المسؤول عن تحديد السعر
+              بما يناسب الطلاب وبجودة عالية.
+            </p>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+<!--  -->
+    <section class="title">
+      <div class="register-title" data-aos="fade-up" data-aos-anchor-placement="center-center">
+<br> 
+أحصل على المساعدة الدراسية التى تحتاجهافى لحظات واستمتع بتجربه تعليمية ممتعة وفريدة من نوعها. <br>
+بخطوات بسيطة بإمكانك الوصول إلى أكفاء المدرسين اونلاين ليقوموا بمساعدتك والأجابة على اسئلتك الخاصة 
+<br>
+بالمنهج الدراسى.
+</p>
+      </div>
+    </section>
+      <!-- ------------------------------------- Footer ----------------------------------------- -->
+    <footer class="footer">
+      <div class="container">
+
+        <div class="footer-grid">
+
+          <!-- أقصى اليمين -->
+          <div class="footer-col" data-aos="zoom-out-left">
+            <h4>مساعدة</h4>
+            <ul>
+              <li><a href="index.html">من نحن</a></li>
+              <li><a href="index.html">سياسة الخصوصية</a></li>
+              <li><a href="index.html">شروط الموقع</a></li>
+              <li><a href="index.html">سياسة الاسترجاع</a></li>
+            </ul>
+          </div>
+
+          <!-- لينكات مفيدة -->
+          <div class="footer-col" data-aos="zoom-out-left">
+            <h4>لينكات مفيدة</h4>
+            <ul>
+              <li><a href="index.html">الأخبار</a></li>
+              <li><a href="index.html">كل الدروس</a></li>
+              <li><a href="register.html">تسجيل جديد</a></li>
+            </ul>
+          </div>
+
+          <!-- أعلى الأقسام -->
+          <div class="footer-col" data-aos="zoom-out-left">
+            <h4>أعلى الأقسام</h4>
+            <ul>
+              <li><a href="#">أعلى الدورات</a></li>
+            </ul>
+          </div>
+
+          <!-- الشمال (اللوجو + الوصف) -->
+          <div class="footer-brand" data-aos="zoom-out-right">
+            <div class="brand-top">
+              <img src="style/uploads/logo.png" alt="Logo">
+              <div class="brand-text">
+                <p>
+                  Study any topic, anytime. Explore thousands of courses for
+                  the lowest price ever
+
+                </p>
+                <div class="social-icons">
+                  <a class="social-icon" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                  <a class="social-icon" href="https://x.com/twitt_login?lang=en"><i class="fab fa-twitter"></i></a>
+                  <a class="social-icon" href="https://www.instagram.com/accounts/login/?hl=en"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- أسفل الفوتر -->
+        <div class="footer-bottom">
+          <span></span>
+          <p>جميع الحقوق محفوظة © 2026</p>
+        </div>
+
+      </div>
+    </footer>
+   
+  <script src="style/js/script.js"></script>
+   <script src="style/library/aos/js/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>
