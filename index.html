@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> IUC </title>
+  <!-- Start Icon Logo -->
   <link rel="icon" href="style/uploads/logo.png">
+  <!-- Strart Animation libary aos -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Strart ajax font -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Strart Style Css -->
   <link rel="stylesheet" href="style/css/style.css">
-  <link rel="stylesheet" href="style/library/aos/css/aos.css">
-  
 </head>
 
 <body>
@@ -22,18 +25,18 @@
       <div class="container top-bar-content">
 
         <!-- اليمين -->
-     
-        <div class="auth-links" data-aos="fade-left">
+
+        <div class="auth-links">
           <a href="login.html" class="login" style="border: 1px solid #f7f7f7;">تسجيل
             دخول</a>
           <a href="register.html" class="register">تسجيل جديد</a>
         </div>
 
         <!-- الشمال -->
-         
-        <div class="logo" data-aos="fade-right">
+
+        <div class="logo">
           <a href="index.html">
-          <img src="style/uploads/logo.png" alt="Logo">
+            <img src="style/uploads/logo.png" alt="Logo" loading="lazy">
           </a>
         </div>
 
@@ -90,8 +93,8 @@
         <h1>ابدأ التعلم من أفضل منصة</h1>
         <p>ادرس أي موضوع في أي وقت. استكشف آلاف الدورات بأقل سعر</p>
 
-        <form data-aos="zoom-in" class="search-form">
-          <img src="style/uploads/serch.png" class="search-icon">
+        <form class="search-form animate" data-aos="fade-zoom">
+          <img src="style/uploads/serch.png" class="search-icon" loading="lazy">
           <input type="search" placeholder="ماذا تريد أن تتعلم اليوم؟">
         </form>
       </div>
@@ -106,25 +109,25 @@
 
           <div class="feature-card">
             <a href="login.html">
-            <div class="icon">🎓</div>
-            <h3>كورسات أونلاين</h3>
-            <p>تصفح المواضيع المتنوعة</p>
+              <div class="icon">🎓</div>
+              <h3>كورسات أونلاين</h3>
+              <p>تصفح المواضيع المتنوعة</p>
             </a>
           </div>
 
           <div class="feature-card active">
             <a href="login.html">
-            <div class="icon">💡</div>
-            <h3>تعليمات العلم</h3>
-            <p>ابحث عن الدورة المناسبة لك</p>
+              <div class="icon">💡</div>
+              <h3>تعليمات العلم</h3>
+              <p>ابحث عن الدورة المناسبة لك</p>
             </a>
           </div>
 
           <div class="feature-card">
             <a href="login.html">
-            <div class="icon">⏰</div>
-            <h3>وصول مدى الحياة</h3>
-            <p>تعلم على الجدول الزمني الخاص بك</p>
+              <div class="icon">⏰</div>
+              <h3>وصول مدى الحياة</h3>
+              <p>تعلم على الجدول الزمني الخاص بك</p>
             </a>
           </div>
 
@@ -134,16 +137,16 @@
     </section>
     <!-- ----------------------------------------------------------------------------- -->
     <section class="help-section">
-      <div data-aos="flip-up">
+      <div>
 
-      <div class="help-container">
-        <p>
-          احصل على المساعدة الدراسية التي تحتاجها في لحظات
-          واستمتع بتجربة تعليمية ممتعة وفريدة من نوعها.<br>
-          بخطوات بسيطة يمكنك الوصول إلى أكفأ المدرسين أونلاين
-          ليقوموا بمساعدتك والإجابة على أسئلتك الخاصة بالمنهج الدراسي.
-        </p>
-      </div>
+        <div class="help-container">
+          <p>
+            احصل على المساعدة الدراسية التي تحتاجها في لحظات
+            واستمتع بتجربة تعليمية ممتعة وفريدة من نوعها.<br>
+            بخطوات بسيطة يمكنك الوصول إلى أكفأ المدرسين أونلاين
+            ليقوموا بمساعدتك والإجابة على أسئلتك الخاصة بالمنهج الدراسي.
+          </p>
+        </div>
       </div>
     </section>
     <!-- ------------------------------------------------------------------------------ -->
@@ -153,9 +156,9 @@
         <div class="join-grid">
 
           <!-- انضم كمدرس -->
-          <div class="join-card teacher" data-aos="zoom-in-left">
+          <div class="join-card teacher" data-aos="fade-left">
             <div class="join-image">
-              <img src="style/uploads/teacher.jpg" alt="مدرس">
+              <img src="style/uploads/teacher.webp" alt="مدرس" loading="lazy">
             </div>
 
             <div class="join-content">
@@ -167,14 +170,14 @@
               <h3>انضم كمدرس</h3>
               <button class="btn-red">
                 <a href="login.html">انضم الآن</a>
-                </button>
+              </button>
             </div>
           </div>
 
           <!-- انضم الآن لبدء التعلم -->
-          <div class="join-card student" data-aos="zoom-in-right">
+          <div class="join-card student" data-aos="fade-right">
             <div class="join-image">
-              <img src="style/uploads/student.jpg" alt="طالب">
+              <img src="style/uploads/student.webp" alt="طالب" loading="lazy">
             </div>
 
             <div class="join-content">
@@ -184,8 +187,8 @@
                 ومتابعة دروسك بسهولة.
               </p>
               <h3>انضم الآن لبدء التعلم</h3>
-              <button class="btn-blue"> 
-                 <a href="login.html">انضم الآن</a>
+              <button class="btn-blue">
+                <a href="login.html">انضم الآن</a>
               </button>
             </div>
           </div>
@@ -210,9 +213,9 @@
         <div class="cards-group active" id="categories">
           <div class="categories-grid">
 
-            <div class="category-card" div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="category-card" data-aos="fade-left">
               <div class="category-card-image">
-                <img src="style/uploads/porgrmer.jpg" alt="برمجة">
+                <img src="style/uploads/porgrmer.webp" alt="برمجة" loading="lazy">
               </div>
               <div class="card-info">
 
@@ -224,9 +227,9 @@
               </div>
             </div>
 
-            <div class="category-card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+            <div class="category-card" data-aos="zoom-in-down">
               <div class="category-card-image">
-                <img src="style/uploads/laptop.jpg" alt="جرافيك">
+                <img src="style/uploads/laptop.webp" alt="جرافيك" loading="lazy">
               </div>
               <div class="card-info">
                 <div class="course-title">
@@ -237,9 +240,9 @@
               </div>
             </div>
 
-            <div class="category-card" div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="category-card" data-aos="fade-right">
               <div class="category-card-image">
-                <img src="style/uploads/ai.jpg" alt="ذكاء اصطناعي">
+                <img src="style/uploads/ai.webp" alt="ذكاء اصطناعي" loading="lazy" >
               </div>
               <div class="card-info">
                 <div class="course-title">
@@ -259,7 +262,7 @@
 
             <div class="category-card">
               <div class="category-card-image">
-                <img src="style/uploads/pngtree.jpg" alt="رياضة / علوم">
+                <img src="style/uploads/pngtree.webp" alt="رياضة / علوم" loading="lazy">
               </div>
               <div class="card-info">
                 <div class="course-title">
@@ -272,7 +275,7 @@
 
             <div class="category-card">
               <div class="category-card-image">
-                <img src="style/uploads/18.png.png" alt="علمي علوم">
+                <img src="style/uploads/18.png.webp" alt="علمي علوم" loading="lazy">
               </div>
               <div class="card-info">
                 <div class="course-title">
@@ -285,7 +288,7 @@
 
             <div class="category-card">
               <div class="category-card-image">
-                <img src="style/uploads/history.jpg" alt="أدبي / تاريخ">
+                <img src="style/uploads/history.webp" alt="أدبي / تاريخ" loading="lazy">
               </div>
               <div class="card-info">
                 <div class="course-title">
@@ -306,54 +309,53 @@
     <section class="guarantees-section">
       <div class="container">
 
-        <div class="guarantees-grid" data-aos="fade-up"
-     data-aos-anchor-placement="center-center">
+        <div class="guarantees-grid">
 
           <div class="guarantee-card">
             <a href="login.html">
-            <img src="style/uploads/10.png.png" alt="ضمان الرضى">
-            <h3>ضمان الرضى</h3>
-            <span class="line"></span>
-            <p>
-              بإمكان الطالب طلب حصة تجريبية لمدة 30 دقيقة
-              للتعرف على أسلوب المدرس قبل البدء.
-            </p>
+              <img src="style/uploads/10.png.png" alt="ضمان الرضى" loading="lazy">
+              <h3>ضمان الرضى</h3>
+              <span class="line"></span>
+              <p>
+                بإمكان الطالب طلب حصة تجريبية لمدة 30 دقيقة
+                للتعرف على أسلوب المدرس قبل البدء.
+              </p>
             </a>
           </div>
 
           <div class="guarantee-card">
             <a href="login.html">
-            <img src="style/uploads/istockphoto-942836988-612x612.png" alt="مرونة التوقيت">
-            <h3>مرونة التوقيت</h3>
-            <span class="line"></span>
-            <p>
-              إمكانية حجز الحصص الدراسية في الأوقات
-              التي تناسب جدولك اليومي.
-            </p>
+              <img src="style/uploads/istockphoto-942836988-612x612.png" alt="مرونة التوقيت" loading="lazy">
+              <h3>مرونة التوقيت</h3>
+              <span class="line"></span>
+              <p>
+                إمكانية حجز الحصص الدراسية في الأوقات
+                التي تناسب جدولك اليومي.
+              </p>
             </a>
           </div>
 
           <div class="guarantee-card">
             <a href="login.html">
-            <img src="style/uploads/12.png.png" alt="تجربة آمنة">
-            <h3>تجربة آمنة</h3>
-            <span class="line"></span>
-            <p>
-              إجراءات قبول صارمة للمدرسين لضمان
-              الكفاءة والجودة التعليمية.
-            </p>
-          </a>
+              <img src="style/uploads/12.png.png" alt="تجربة آمنة" loading="lazy">
+              <h3>تجربة آمنة</h3>
+              <span class="line"></span>
+              <p>
+                إجراءات قبول صارمة للمدرسين لضمان
+                الكفاءة والجودة التعليمية.
+              </p>
+            </a>
           </div>
 
           <div class="guarantee-card">
             <a href="login.html">
-            <img src="style/uploads/14.png.png" alt="أسعار مقبولة">
-            <h3>أسعار مقبولة</h3>
-            <span class="line"></span>
-            <p>
-              المدرس هو المسؤول عن تحديد السعر
-              بما يناسب الطلاب وبجودة عالية.
-            </p>
+              <img src="style/uploads/14.png.png" alt="أسعار مقبولة" loading="lazy">
+              <h3>أسعار مقبولة</h3>
+              <span class="line"></span>
+              <p>
+                المدرس هو المسؤول عن تحديد السعر
+                بما يناسب الطلاب وبجودة عالية.
+              </p>
             </a>
           </div>
 
@@ -361,6 +363,7 @@
 
       </div>
     </section>
+    <a href="#top-section">روح لأعلى الأقسام</a>
     <!-- ------------------------------------------------------------------------------ -->
     <footer class="footer">
       <div class="container">
@@ -368,7 +371,7 @@
         <div class="footer-grid">
 
           <!-- أقصى اليمين -->
-          <div class="footer-col" data-aos="zoom-out-left">
+          <div class="footer-col">
             <h4>مساعدة</h4>
             <ul>
               <li><a href="index.html">من نحن</a></li>
@@ -379,7 +382,7 @@
           </div>
 
           <!-- لينكات مفيدة -->
-          <div class="footer-col" data-aos="zoom-out-left">
+          <div class="footer-col">
             <h4>لينكات مفيدة</h4>
             <ul>
               <li><a href="login.html">الأخبار</a></li>
@@ -389,7 +392,7 @@
           </div>
 
           <!-- أعلى الأقسام -->
-          <div class="footer-col" data-aos="zoom-out-left">
+          <div class="footer-col">
             <h4>أعلى الأقسام</h4>
             <ul>
               <li><a href="login.html">أعلى الدورات</a></li>
@@ -397,10 +400,10 @@
           </div>
 
           <!-- الشمال (اللوجو + الوصف) -->
-          <div class="footer-brand" data-aos="zoom-out-right">
+          <div class="footer-brand">
             <div class="brand-top">
               <a href="index.html">
-              <img src="style/uploads/logo.png" alt="Logo">
+                <img src="style/uploads/logo.png" alt="Logo" loading="lazy">
               </a>
               <div class="brand-text">
                 <p>
@@ -411,7 +414,8 @@
                 <div class="social-icons">
                   <a class="social-icon" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                   <a class="social-icon" href="https://x.com/twitt_login?lang=en"><i class="fab fa-twitter"></i></a>
-                  <a class="social-icon" href="https://www.instagram.com/accounts/login/?hl=en"><i class="fab fa-instagram"></i></a>
+                  <a class="social-icon" href="https://www.instagram.com/accounts/login/?hl=en"><i
+                      class="fab fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -430,10 +434,13 @@
     </footer>
 
     <script src="style/js/script.js"></script>
-    <script src="style/library/aos/js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
+      AOS.init({
+        duration: 800,
+        once: false
+      });
+    </script>
 </body>
 
 </html>

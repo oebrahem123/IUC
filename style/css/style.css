@@ -6,8 +6,11 @@
 }
 html, body {
   overflow-x: hidden;
+  
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Cairo', sans-serif;
   direction: rtl;
@@ -274,7 +277,7 @@ z-index: 10;
 /*********************************** Start Style Hero  *****************************************/
 .hero {
 height: 80vh;
-  background-image: url("../uploads/christin-hume-slbqShqAhEo-unsplash.jpg");
+  background-image: url("../uploads/christin-hume-slbqShqAhEo-unsplash.webp");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -356,12 +359,14 @@ height: 80vh;
   width: 50px;
   height: 50px;
 }
+/* Start Search Form Animation */
+
 
 /* start @media Scren */
 @media (max-width: 768px) {
   .hero {
     height: 90vh;
-    background-image: url("../uploads/editback.jpg");
+    background-image: url("../uploads/editback.webp");
     background-position: top;
   }
 
@@ -662,6 +667,8 @@ background: #fafafa;
   border: none;
   cursor: pointer;
   font-size: clamp(0.9rem, 1vw, 1rem);
+  position: relative;
+  z-index: 999;
 }
 
 .btn-red {
@@ -679,6 +686,7 @@ background: #fafafa;
     grid-template-columns: 1fr;
   }
 }
+/* Start join-card Animation */
 
 /* ****************************************************************************** */
 .top-section {
@@ -1067,7 +1075,7 @@ background: #fafafa;
 
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("../uploads/istockphot.jpg") center / cover no-repeat;
+    url("../uploads/istockphot.webp") center / cover no-repeat;
 
   position: relative;
 }
@@ -1365,7 +1373,7 @@ input.error {
   padding: clamp(20px, 5vw, 60px);
   background:
     linear-gradient(rgba(255, 0, 0, 0.811), rgba(185, 21, 21, 0.72)),
-    url("../uploads/istockphot.jpg") center / cover no-repeat;
+    url("../uploads/istockphot.webp") center / cover no-repeat;
   position: relative;
 }
 .register-title{
@@ -1389,7 +1397,7 @@ input.error {
 
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("../uploads/istockphot.jpg") center / cover no-repeat;
+    url("../uploads/istockphot.webp") center / cover no-repeat;
 
   position: relative;
 }
