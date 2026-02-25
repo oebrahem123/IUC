@@ -1520,3 +1520,37 @@ input.error {
         padding: 6px 27px 6px 27px
   }
 }
+
+/*Start scroll Style */
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: clamp(32px, 5vw, 40px);
+  height: clamp(32px, 5vw, 40px);
+  background: #e13510;
+  color: #fff;
+  font-size: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+/* لما تظهر */
+.scroll-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Hover */
+.scroll-top:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}

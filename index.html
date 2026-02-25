@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="top-section">
 
     <!-- Top Bar -->
     <div class="top-bar">
@@ -364,8 +364,10 @@
 
       </div>
     </section>
-    <a href="#top-section">روح لأعلى الأقسام</a>
-    <!-- ------------------------------------------------------------------------------ -->
+<a href="#top-section" class="scroll-top" >
+  ↑
+</a>   
+ <!-- ------------------------------------------------------------------------------ -->
     <footer class="footer">
       <div class="container">
 
@@ -441,6 +443,17 @@
         duration: 800,
         once: false
       });
+    </script>
+    <script>
+      const scrollBtn = document.querySelector(".scroll-top");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    scrollBtn.classList.add("show");
+  } else {
+    scrollBtn.classList.remove("show");
+  }
+});
     </script>
 </body>
 
