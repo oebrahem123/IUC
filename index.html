@@ -8,14 +8,19 @@
     <!-- Start Icon Logo -->
   <link rel="icon" href="style/uploads/logo.png">
     <link rel="manifest" href="manifest.json">
+    <!-- Start google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
   <!-- Strart Animation libary aos -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <!-- Strart ajax font -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Bootstrap RTL -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
   <!-- Strart Style Css -->
   <link rel="stylesheet" href="style/css/style.css">
+  
 </head>
 
 <body>
@@ -136,181 +141,172 @@
 
       </div>
     </section>
-    <!-- ----------------------------------------------------------------------------- -->
-    <section class="help-section">
-      <div>
+    <!-- -----------------------------Start Help Section--------------------------------- -->
+  <div class="container mb-5 help">
+  <div class="top-banner text-center">
+    <p class="mb-0">
+      احصل على المساعدة الدراسية التي تحتاجها في لحظات واستمتع بتجربة تعليمية ممتعة وفريدة من نوعها.
+      بخطوات بسيطة يمكنك الوصول الى اكفاء المدرسين اونلاين ليقوموا بمساعدتك والاجابة على اسئلتك الخاصة بالمنهج الدراسي.
+    </p>
+  </div>
+</div>
+    <!-- ------------------------------Start Card Section-------------------------------- -->
+   <div class="container mb-5">
+  <div class="row g-4">
 
-        <div class="help-container">
-          <p>
-            احصل على المساعدة الدراسية التي تحتاجها في لحظات
-            واستمتع بتجربة تعليمية ممتعة وفريدة من نوعها.<br>
-            بخطوات بسيطة يمكنك الوصول إلى أكفأ المدرسين أونلاين
-            ليقوموا بمساعدتك والإجابة على أسئلتك الخاصة بالمنهج الدراسي.
+    <!-- كارت الطالب -->
+    <div class="col-lg-6" data-aos="fade-left">
+      <div class="card join-card p-3">
+        <img src="style/uploads/student.webp" class="card-img-top" alt="">
+
+        <div class="card-body">
+          <p class="text-start">
+            بخطوات بسيطة يمكنك الوصول الى اكفاء المدرسين اونلاين
+            ليقوموا بمساعدتك والاجابة على اسئلتك الخاصة بالمنهج الدراسي.
           </p>
+
+          <div class="text-end">
+            <h5>أنضم الآن لبدء التعلم</h5>
+            <button class="btn btn-primary mt-1 btn-border">أنضم الآن</button>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- ------------------------------------------------------------------------------ -->
-    <section class="join-section">
-      <div class="container">
+    </div>
 
-        <div class="join-grid">
+    <!-- كارت المدرس -->
+    <div class="col-lg-6" data-aos="fade-right">
+      <div class="card join-card p-3">
+        <img src="style/uploads/teacher.webp" class="card-img-top" alt="">
 
-          <!-- انضم كمدرس -->
-          <div class="join-card teacher">
-            <div class="join-image">
-              <img src="style/uploads/teacher.webp" alt="مدرس" loading="lazy">
-            </div>
+        <div class="card-body">
+          <p class="text-start">
+            كمعلم يمكنك انشاء مجموعة دراسية ودعوة طلابك بشكل تفاعلي،
+            تابع طلابك بشكل يومي وشارك معهم كل متطلبات الدروس.
+          </p>
 
-            <div class="join-content">
-
-              <p>
-                أنشئ مجموعتك الدراسية وتابع طلابك
-                وقدم تجربة تعليمية احترافية.
-              </p>
-              <h3>انضم كمدرس</h3>
-              <button class="btn-red">
-                <a href="login.html">انضم الآن</a>
-              </button>
-            </div>
+          <div class="text-end">
+            <h5>أنضم كمدرس</h5>
+            <button class="btn btn-danger mt-1 btn-border">أنضم الآن</button>
           </div>
-
-          <!-- انضم الآن لبدء التعلم -->
-          <div class="join-card student">
-            <div class="join-image">
-              <img src="style/uploads/student.webp" alt="طالب" loading="lazy">
-            </div>
-
-            <div class="join-content">
-
-              <p>
-                بخطوات بسيطة يمكنك الوصول إلى أفضل المدرسين
-                ومتابعة دروسك بسهولة.
-              </p>
-              <h3>انضم الآن لبدء التعلم</h3>
-              <button class="btn-blue">
-                <a href="login.html">انضم الآن</a>
-              </button>
-            </div>
-          </div>
-
         </div>
-
       </div>
-    </section>
+    </div>
 
-    <!-- ----------------------------------------------------------------------------- -->
-    <section class="top-section">
-      <div class="container">
+  </div>
+</div>
+    <!-- -------------------------------Start Tabs Section---------------------------- -->
+   <div class="container my-5">
 
-        <!-- التابات -->
-        <div class="section-tabs">
-          <button class="tab active" data-target="categories">أعلى
-            الأقسام</button>
-          <button class="tab" data-target="courses">أعلى الدورات</button>
-        </div>
+  <!-- Tabs Titles -->
+  <ul class="nav justify-content-start mb-4 custom-tabs" id="myTab" role="tablist">
 
-        <!-- أعلى الأقسام -->
-        <div class="cards-group active" id="categories">
-          <div class="categories-grid">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="sections-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#sections"
+        type="button">
+        أعلى الأقسام
+      </button>
+    </li>
 
-            <div class="category-card" >
-              <div class="category-card-image">
-                <img src="style/uploads/porgrmer.webp" alt="برمجة" loading="lazy">
-              </div>
-              <div class="card-info">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="courses-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#courses"
+        type="button">
+        أعلى الدورات
+      </button>
+    </li>
 
-                <div class="course-title">
-                  <h3>برمجة</h3>
-                  <span class="line"></span>
-                </div>
-                <a href="login.html" class="join-now">انضم الآن</a>
-              </div>
+  </ul>
+
+  <!-- Tabs Content -->
+  <div class="tab-content">
+
+    <!-- الأقسام -->
+    <div class="tab-pane fade show active" id="sections">
+
+      <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6" data-aos="zoom-out-left">
+          <div class="card section-card p-3">
+            <img src="style/uploads/16.png.webp" class="card-img-top">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="title1">أدبي / تاريخ</span>
+              <button class="btn btn-danger btn-sm">أنضم الآن</button>
             </div>
-
-            <div class="category-card" >
-              <div class="category-card-image">
-                <img src="style/uploads/laptop.webp" alt="جرافيك" loading="lazy">
-              </div>
-              <div class="card-info">
-                <div class="course-title">
-                  <h3>جرافيك</h3>
-                  <span class="line"></span>
-                </div>
-                <a href="login.html" class="join-now">انضم الآن</a>
-              </div>
-            </div>
-
-            <div class="category-card">
-              <div class="category-card-image">
-                <img src="style/uploads/ai.webp" alt="ذكاء اصطناعي" loading="lazy">
-              </div>
-              <div class="card-info">
-                <div class="course-title">
-                  <h3>ذكاء اصطناعي</h3>
-                  <span class="line"></span>
-                </div>
-                <a href="login.html" class="join-now">انضم الآن</a>
-              </div>
-            </div>
-
           </div>
         </div>
 
-        <!-- أعلى الدورات -->
-        <div class="cards-group" id="courses">
-          <div class="categories-grid">
-
-            <div class="category-card">
-              <div class="category-card-image">
-                <img src="style/uploads/pngtree.webp" alt="رياضة / علوم" loading="lazy">
-              </div>
-              <div class="card-info">
-                <div class="course-title">
-                  <h3>رياضة / علوم</h3>
-                  <span class="line"></span>
-                </div>
-                <a href="login.html" class="join-now">انضم الآن</a>
-              </div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+          <div class="card section-card p-3">
+            <img src="style/uploads/18.png.webp" class="card-img-top">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="title1">علمي علوم</span>
+              <button class="btn btn-danger btn-sm">أنضم الآن</button>
             </div>
+          </div>
+        </div>
 
-            <div class="category-card">
-              <div class="category-card-image">
-                <img src="style/uploads/18.png.webp" alt="علمي علوم" loading="lazy">
-              </div>
-              <div class="card-info">
-                <div class="course-title">
-                  <h3>علمي علوم</h3>
-                  <span class="line"></span>
-                </div>
-                <a href="login.html" class="join-now">انضم الآن</a>
-              </div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-out-right">
+          <div class="card section-card p-3">
+            <img src="style/uploads/17.png.webp" class="card-img-top">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="title1">رياضة / علوم</span>
+              <button class="btn btn-danger btn-sm">أنضم الآن</button>
             </div>
-
-            <div class="category-card">
-              <div class="category-card-image">
-                <img src="style/uploads/history.webp" alt="أدبي / تاريخ" loading="lazy">
-              </div>
-              <div class="card-info">
-                <div class="course-title">
-                  <h3>أدبي / تاريخ</h3>
-                  <span class="line"></span>
-                </div>
-                <a href="login.html" class="join-now">انضم الآن</a>
-              </div>
-            </div>
-
           </div>
         </div>
 
       </div>
-    </section>
+    </div>
 
-    <!-- ----------------------------------------------------------------------------- -->
+    <!-- الدورات -->
+    <div class="tab-pane fade" id="courses">
+
+      <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card section-card p-3">
+            <img src="style/uploads/ai.webp" class="card-img-top">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="title1">ذكاء اصطناعي</span>
+              <button class="btn btn-danger btn-sm">أنضم الآن</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card section-card p-3">
+            <img src="style/uploads/laptop.webp" class="card-img-top">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="title1">جرافيك</span>
+              <button class="btn btn-danger btn-sm">أنضم الآن</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card section-card p-3">
+            <img src="style/uploads/porgrmer.webp" class="card-img-top">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="title1">برمجة</span>
+              <button class="btn btn-danger btn-sm">أنضم الآن</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- -----------------------------------Start guarantees Section----------------------- -->
     <section class="guarantees-section">
       <div class="container">
 
-        <div class="guarantees-grid">
+        <div class="guarantees-grid"  data-aos="fade-up" data-aos-duration="3000">
 
           <div class="guarantee-card">
             <a href="login.html">
@@ -374,7 +370,7 @@
         <div class="footer-grid">
 
           <!-- أقصى اليمين -->
-          <div class="footer-col">
+          <div class="footer-col" data-aos="zoom-out-left">
             <h4>مساعدة</h4>
             <ul>
               <li><a href="index.html">من نحن</a></li>
@@ -385,7 +381,7 @@
           </div>
 
           <!-- لينكات مفيدة -->
-          <div class="footer-col">
+          <div class="footer-col" data-aos="zoom-out-left">
             <h4>لينكات مفيدة</h4>
             <ul>
               <li><a href="login.html">الأخبار</a></li>
@@ -395,19 +391,18 @@
           </div>
 
           <!-- أعلى الأقسام -->
-          <div class="footer-col">
+          <div class="footer-col" data-aos="zoom-out-left">
             <h4>أعلى الأقسام</h4>
             <ul>
-              <li><a href="login.html">أعلى الدورات</a></li>
+              <li><a href="#">أعلى الدورات</a></li>
             </ul>
           </div>
 
           <!-- الشمال (اللوجو + الوصف) -->
-          <div class="footer-brand">
+          <div class="footer-brand" data-aos="zoom-out-right">
             <div class="brand-top">
-              <a href="index.html">
-                <img src="style/uploads/logo.png" alt="Logo" loading="lazy">
-              </a>
+
+              <img src="style/uploads/logo.png" alt="Logo">
               <div class="brand-text">
                 <p>
                   Study any topic, anytime. Explore thousands of courses for
@@ -417,8 +412,7 @@
                 <div class="social-icons">
                   <a class="social-icon" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                   <a class="social-icon" href="https://x.com/twitt_login?lang=en"><i class="fab fa-twitter"></i></a>
-                  <a class="social-icon" href="https://www.instagram.com/accounts/login/?hl=en"><i
-                      class="fab fa-instagram"></i></a>
+                  <a class="social-icon" href="https://www.instagram.com/accounts/login/?hl=en"><i class="fab fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -437,6 +431,7 @@
     </footer>
 
     <script src="style/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
       AOS.init({
